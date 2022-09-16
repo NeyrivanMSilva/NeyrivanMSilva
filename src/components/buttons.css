@@ -1,0 +1,166 @@
+/* CSS STYLING FILE FOR BUTTONS */
+
+
+
+
+
+.button_ver {
+    padding: 6px 12px;
+    margin-top: 33px;
+    width: 100%;
+    transition: 0.5s;
+    background-color: #D1E7DD;
+    border: 0px;
+
+    color: #0F729B;
+}
+
+@media only screen and (max-width: 700px) {
+    .button_ver {
+        padding: 20px 20px;
+    }
+
+    .button_edit {
+        padding: 20px 20px !important;
+    }
+
+    .button_apagar {
+        padding: 20px 20px !important;
+    }
+
+   
+
+    
+}
+
+
+
+.button_ver:hover {
+    background-color: #0F729B;
+    color: white;
+}
+
+
+#button_add {
+    padding: 6px 12px;
+    margin-top: 33px;
+    width: 20%;
+    float: right;
+    transition: 0.5s;
+    background-color: #D1E7DD;
+    border: 0px;
+    margin-bottom: 50px;
+    color: #0F729B;
+    margin-right: 50px;
+}
+
+#button_add:hover {
+    background-color: #0F729B;
+    color: white;
+}
+
+@media only screen and (max-width: 700px) {
+    #button_add {
+        width: 100%;
+        margin-right: 0px;
+    }
+}
+
+
+
+
+
+.button_edit {
+    padding: 6px 12px;
+    margin-top: 33px;
+    width: 100%;
+    transition: 0.5s;
+    background-color: #FCEFC7;
+    border: 0px;
+
+    color: #EAB949;
+}
+
+.button_edit:hover {
+    background-color: #EAB949;
+    color: white;
+}
+
+
+
+.button_apagar {
+    padding: 6px 12px;
+    margin-top: 33px;
+    width: 100%;
+    transition: 0.5s;
+    color: #AD454B;
+    border: 0px;
+
+    background-color: #F8D7DA;
+}
+
+.button_apagar:hover {
+    background-color: #842029;
+    color: white;
+}
+
+.button_homepage {
+    margin-top: 33px;
+    width: 158px;
+    transition: 0.5s;
+    color: black;
+    border: 0px;
+    background-color: white;
+    height: 50px;
+    border-radius: 5px;
+}
+
+.button_homepage:hover {
+    background-color: grey;
+    color: white;
+}
+
+
+
+
+
+.button_limpar {
+    padding: 6px 12px;
+    margin-top: 33px;
+    width: 100%;
+    transition: 0.5s;
+    color: #AD454B;
+    border: 0px;
+
+    background-color: #F8D7DA;
+}
+
+.button_limpar:hover {
+    background-color: #842029;
+    color: white;
+}
+
+
+.button_user {
+    margin-top: 30px;
+    width: 150px;
+    background-color: #2BB0BB !important;
+}
+
+.dropdown-menu{
+    background-color:#BEF8FD !important;
+  
+}
+
+
+.button_sort {
+    height: 40px !important;
+    border: 0px !important;
+    border: 1px solid #ced4da;
+    height: calc(1.5em + 0.75rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    border-radius: 0.25rem;
+    background-color: #F0F4F8;
+}
